@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Congreso" representedClassName="Congreso" syncable="YES">
+        <attribute name="cargoExpositor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="detalle1Exposicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detalle2Exposicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detalle3Exposicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detalle4Exposicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detalle5Exposicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empresaExpositor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaHoraComparar" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechaHoraConferencia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fotografiaExpositor" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="idConferencia" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombreExpositor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sesionexposicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sesionExposicion" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tipoActividad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tituloExposicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Perlazo" representedClassName="Perlazo" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="perlazoSync" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Regiztro" representedClassName="Regiztro" syncable="YES">
+        <attribute name="contenidoPerla" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Congreso" positionX="160" positionY="192" width="128" height="345"/>
+        <element name="Perlazo" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Regiztro" positionX="160" positionY="192" width="128" height="150"/>
+    </elements>
+</model>
